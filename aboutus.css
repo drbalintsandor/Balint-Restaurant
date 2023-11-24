@@ -1,0 +1,52 @@
+
+#logo {
+    float: left;
+    font-size: 200%;
+    margin-left: 90px;
+    margin-top: 17px;
+    color: white;
+    width: 150px;
+    height: auto;
+    letter-spacing: 20px;
+    font-weight: bold;
+     font-size: 18px;
+     color: white; 
+     padding: 15px; 
+     text-shadow: 10 10 10px rgba(255, 255, 255, 0.7); 
+     transform: scale(1) rotate(0deg); 
+     transition: transform 0.5s ease, box-shadow 0.5s ease, border 0.5s ease, text-shadow 0.5s ease, font-size 0.5s ease; 
+    }
+
+
+
+   body {
+    background-image: url('kitchen1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white; 
+    
+    text-align: center; 
+}
+
+video {
+    max-width: 25cm; 
+    height: 15cm; 
+    border-radius: 900px;
+    margin-bottom: 20px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 500 500 500px rgba(0, 0, 0, 0.5); 
+}
+
+#beginning {
+    border-radius: 10px;
+    box-shadow: 20 20 20px rgba(0, 0, 0, 0.5);
+}
+
+h2, p {
+    text-shadow: 10px 10px 30px rgba(0, 0, 0, 0.7); 
+}
+
+
