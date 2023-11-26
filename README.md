@@ -1,2 +1,2 @@
-# Balint-Restaurant
+## Balint-Restaurant
 HTML CSS Project
