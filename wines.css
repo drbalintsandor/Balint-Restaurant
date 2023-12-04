@@ -178,17 +178,27 @@ body {
 
 .photo-gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 20px;
     justify-content: center; 
-    margin-top: 30px;
+    margin-top: 3px;
+    width: 55cm;
+    height: 12cm;
+}
+
+nav {
+  margin-bottom: 20px;
 }
 
 .gallery-item {
     position: relative;
-    width: calc(40% - 30px);
-    height: 400px;
+    width: 10cm;
+    height: 10cm;
     perspective: 1000px;
+    margin-top: 10cm;
+    align-items: center;
+    align-self: center;
+     
 }
 
 .gallery-item-inner {
