@@ -147,7 +147,7 @@ You will need to mention unfixed bugs and why they were not fixed. This section 
 ## Deployment
 
 
-The live link can be found here - https://github.com/drbalintsandor/Balint-Restaurant
+The live link can be found here - [https://drbalintsandor.github.io/Balint-Restaurant/](https://drbalintsandor.github.io/Balint-Restaurant/)
 
 
 ## Credits 
