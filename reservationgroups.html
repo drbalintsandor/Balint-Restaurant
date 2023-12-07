@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="reservationgroups.css"> 
-  <title>Your Restaurant</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Restaurant in the World, Zurich,">
+    <meta name="keywords" content="restaurant, dining, fine-dining, michelin-star, food, meals, private dining, menu, wine, wines, 
+    whiskey, vodka, ">
+    <link rel="stylesheet" href="wines.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Balint's</title>
 </head>
-<header>
+
+<body>
 
   <div class="topnav" id="myTopnav">
     <a href="index.html" class="active">Home</a>
@@ -43,77 +49,77 @@
   }
   </script>
   
+  </body>
+    <section id="napa-valley">
+        <h2>Napa Valley Wine Tasting</h2>
+        <article>
+            <h3>Popular Wine Brands</h3>
+            <ul>
+                <li><strong>Robert Mondavi:</strong> A pioneering winery in Napa Valley, recognized for its Cabernet Sauvignon and Fumé Blanc, showcasing the region's terroir.</li>
+                <li><strong>Stag's Leap Wine Cellars:</strong> Notable for its Cabernet Sauvignon, particularly the historic 1973 vintage that won the Judgment of Paris.</li>
+                <li><strong>Duckhorn Vineyards:</strong> Specializing in Merlot and Cabernet Sauvignon, known for producing wines with balance and complexity.</li>
+            </ul>
+            <p>
+                <strong>Duration:</strong> 2 hours<br>
+                <strong>Small Plates:</strong> Artisanal cheese and charcuterie board<br>
+                <strong>Price:</strong> $180 per person<br>
+                <a href="reservation.html" class="reservation-btn">Make a Reservation</a>
+            </p>
+        </article>
+    </section>
 
-</header>
-<body>
+    <section id="italian-wines">
+        <h2>Italian Wine Tasting</h2>
+        <article>
+            <h3>Popular Wine Brands</h3>
+            <ul>
+                <li><strong>Sassicaia:</strong> An iconic Super Tuscan wine, known for its Cabernet Sauvignon and Cabernet Franc blend, showcasing elegance and structure.</li>
+                <li><strong>Gaja:</strong> Renowned for Barbaresco and Barolo wines, representing the excellence of Nebbiolo grape in Piedmont.</li>
+                <li><strong>Biondi-Santi:</strong> A historic estate in Tuscany, credited with creating Brunello di Montalcino, a Sangiovese-based wine with aging potential.</li>
+            </ul>
+            <p>
+                <strong>Duration:</strong> 2 hours<br>
+                <strong>Small Plates:</strong> Italian Bruschetta, Risotto, and Truffle-infused Pasta<br>
+                <strong>Price:</strong> $220 per person<br>
+                <a href="reservation.html" class="reservation-btn">Make a Reservation</a>
+            </p>
+        </article>
+    </section>
 
+    <section id="new-zealand-wines">
+        <h2>New Zealand Wine Tasting</h2>
+        <article>
+            <h3>Popular Wine Brands</h3>
+            <ul>
+                <li><strong>Cloudy Bay:</strong> Pioneering winery in Marlborough, known for its Sauvignon Blanc, Chardonnay, and Pinot Noir, reflecting the region's terroir.</li>
+                <li><strong>Oyster Bay:</strong> Renowned for its approachable and fruit-forward wines, including Sauvignon Blanc and Pinot Noir.</li>
+                <li><strong>Felton Road:</strong> Central Otago producer acclaimed for its Pinot Noir and Riesling, showcasing the unique characteristics of the region.</li>
+            </ul>
+            <p>
+                <strong>Duration:</strong> 1.5 hours<br>
+                <strong>Small Plates:</strong> Fresh Seafood Platter<br>
+                <strong>Price:</strong> $160 per person<br>
+                <a href="reservation.html" class="reservation-btn">Make a Reservation</a>
+            </p>
+        </article>
+    </section>
 
-  <div class="container">
-    <form action="#" method="post" id="groupReservationForm">
-
-      <label for="champagneTasting">Champagne Tasting:</label>
-      <select id="champagneTasting" name="champagneTasting">
-        <option value="none">None</option>
-        <option value="aube">Aube</option>
-        <option value="coteDesBlancs">Côte des Blancs</option>
-        <option value="coteDeSezanne">Côte de Sézanne</option>
-        <option value="montagneDeReims">Montagne de Reims</option>
-        <option value="valleeDeLaMarne">Vallée de la Marne</option>
-      </select>
-
-      <label for="whiskeyTasting">Whiskey Tasting:</label>
-      <select id="whiskeyTasting" name="whiskeyTasting">
-        <option value="none">None</option>
-        <option value="singleMalt">Single Malt</option>
-        <option value="blendedMalt">Blended Malt</option>
-        <option value="barrelProof">Barrel Proof</option>
-        <option value="singleCask">Single Cask</option>
-        <option value="highland">Highland</option>
-      </select>
-
-      <label for="degustation">Degustation:</label>
-      <select id="degustation" name="degustation">
-        <option value="none">None</option>
-        <option value="6Courses">6 Courses</option>
-        <option value="10Courses">10 Courses</option>
-        <option value="12Courses">12 Courses</option>
-      </select>
-
-      <label for="groupSize">Group Size:</label>
-      <div class="group-size">
-        <button type="button" class="group-size-btn" onclick="decreaseGroupSize()">-</button>
-        <input type="text" id="groupSize" name="groupSize" value="1" readonly>
-        <button type="button" class="group-size-btn" onclick="increaseGroupSize()">+</button>
-      </div>
-
-      <label for="creditCardNumber">Credit Card Number:</label>
-      <input type="text" id="creditCardNumber" name="creditCardNumber" required>
-
-      <label for="expirationDate">Expiration Date:</label>
-      <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required>
-
-      <label for="cvv">CVV:</label>
-      <input type="text" id="cvv" name="cvv" required>
-
-      <button type="submit" class="animated-button">Make Group Reservation</button>
-    </form>
-  </div>
-
-  <script>
-    function decreaseGroupSize() {
-      var groupSizeInput = document.getElementById("groupSize");
-      var currentGroupSize = parseInt(groupSizeInput.value, 10);
-      if (currentGroupSize > 1) {
-        groupSizeInput.value = currentGroupSize - 1;
-      }
-    }
-
-    function increaseGroupSize() {
-      var groupSizeInput = document.getElementById("groupSize");
-      var currentGroupSize = parseInt(groupSizeInput.value, 10);
-      groupSizeInput.value = currentGroupSize + 1;
-    }
-  </script>
-
+    <section id="german-wines">
+        <h2>German Wine Tasting</h2>
+        <article>
+            <h3>Popular Wine Brands</h3>
+            <ul>
+                <li><strong>Dr. Loosen:</strong> Recognized for its top-quality Riesling wines from the Mosel region, balancing sweetness and acidity.</li>
+                <li><strong>Selbach-Oster:</strong> Family-owned estate producing traditional Rieslings with a focus on terroir expression.</li>
+                <li><strong>Gunderloch:</strong> Known for its Rheinhessen wines, especially Rieslings, with a history dating back to 1890.</li>
+            </ul>
+            <p>
+                <strong>Duration:</strong> 2 hours<br>
+                <strong>Small Plates:</strong> German Sausages and Pretzels<br>
+                <strong>Price:</strong> $200 per person<br>
+                <a href="reservation.html" class="reservation-btn">Make a Reservation</a>
+            </p>
+        </article>
+    </section>
 </body>
-</html>
+  </html>
