@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Restaurant Reservation</title>
+  <link rel="stylesheet" href="../assets/css/reservation.css"> 
+
+</head>
+<header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="6degu.html">6c.Degustation </a>
+    <a href="10degu.html">10c.Degustation </a>
+    <a href="12degu.html">12c. Degustation</a>
+    <a href="wines.html">Wine</a>
+    <a href="champagne.html">Champagne Tasting</a>
+    <a href="singlemalt.html">Whiskey tasting</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="reservationgroups.html">Reservation for Groups</a>
+    <a href="aboutus.html">Beginnings</a>
+    <a href="hospitality.html">Hospitality</a>
+    <a href="profession.html">Profession</a>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div style="padding-left:16px">
+
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  
+
+</header>
+
+<div class="container">
+  <form action="#" method="post" id="reservationForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="people">Number of People:</label>
+    <select id="people" name="people" required>
+      <option value="" disabled selected>Select number of people</option>
+      <option value="1">1 person</option>
+      <option value="2">2 people</option>
+      <option value="3">3 people</option>
+      <option value="4">4 people</option>
+      <option value="5">5 people</option>
+      <option value="6">6 people</option>
+      <option value="7">7 people</option>
+      <option value="8">8 people</option>
+    </select>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="wineTasting">Wine Tasting:</label>
+    <select id="wineTasting" name="wineTasting">
+      <option value="none">None</option>
+      <option value="italy">Italy</option>
+      <option value="california">California</option>
+      <option value="france">France</option>
+    </select>
+
+    <label for="champagneTasting">Champagne Tasting:</label>
+    <select id="champagneTasting" name="champagneTasting">
+      <option value="none">None</option>
+      <option value="aube">Aube</option>
+      <option value="coteDesBlancs">Côte des Blancs</option>
+      <option value="coteDeSezanne">Côte de Sézanne</option>
+      <option value="montagneDeReims">Montagne de Reims</option>
+      <option value="valleeDeLaMarne">Vallée de la Marne</option>
+    </select>
+
+    <label for="whiskeyTasting">Whiskey Tasting:</label>
+    <select id="whiskeyTasting" name="whiskeyTasting">
+      <option value="none">None</option>
+      <option value="singleMalt">Single Malt</option>
+      <option value="blendedMalt">Blended Malt</option>
+      <option value="barrelProof">Barrel Proof</option>
+      <option value="singleCask">Single Cask</option>
+      <option value="highland">Highland</option>  
+    </select>
+
+    <label for="degustation">Degustation:</label>
+    <select id="degustation" name="degustation">
+      <option value="none">None</option>
+      <option value="6Courses">6 Courses</option>
+      <option value="10Courses">10 Courses</option>
+      <option value="12Courses">12 Courses</option>
+    </select>
+
+    <button type="submit" class="animated-button">Make Reservation</button>
+  </form>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
