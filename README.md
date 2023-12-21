@@ -254,7 +254,16 @@ The testing process has been comprehensive, covering various features, browsers,
 - HTML
   - No errors were returned when passing through the official [W3C validator].
 - CSS
+<<<<<<< HEAD
   - No errors were found when passing through the official [(Jigsaw) validator]
+=======
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+## Deployment
+
+
+The live link can be found here - [https://drbalintsandor.github.io/Balint-Restaurant/](https://drbalintsandor.github.io/Balint-Restaurant/)
+>>>>>>> 00ba06d2e0afd20ca2517a3d66fa683515838b80
 
 
 ## Credits 
@@ -269,14 +278,21 @@ The testing process has been comprehensive, covering various features, browsers,
 7) Lynda.
 8) geeksforgeeks.com
 
+<<<<<<< HEAD
 ### Acknowledgments
 
 I would like to acknowledge the following people:
 
 * Jubril Akolade - My Code Institute Mentor.
+=======
+>>>>>>> 00ba06d2e0afd20ca2517a3d66fa683515838b80
 
 ### Media
 
 - The photos used on the home are from google.com
 - The images used for the backgrounds were taken from google.com
+<<<<<<< HEAD
 - The photos used on the hospoitality.html, profession.html, aboutus.html are from google.com
+=======
+- The photos used on the hospoitality.html, profession.html, aboutus.html are from google.com
+>>>>>>> 00ba06d2e0afd20ca2517a3d66fa683515838b80

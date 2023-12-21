@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="reservationgroups.css"> 
+  <title>Your Restaurant</title>
+</head>
+<header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="6degu.html">6c.Degustation </a>
+    <a href="10degu.html">10c.Degustation </a>
+    <a href="12degu.html">12c. Degustation</a>
+    <a href="wines.html">Wine</a>
+    <a href="champagne.html">Champagne Tasting</a>
+    <a href="singlemalt.html">Whiskey tasting</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="reservationgroups.html">Reservation for Groups</a>
+    <a href="aboutus.html">Beginnings</a>
+    <a href="hospitality.html">Hospitality</a>
+    <a href="profession.html">Profession</a>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div style="padding-left:16px">
+
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  
+
+</header>
+<body>
+
+
+  <div class="container">
+    <form action="#" method="post" id="groupReservationForm">
+
+      <label for="champagneTasting">Champagne Tasting:</label>
+      <select id="champagneTasting" name="champagneTasting">
+        <option value="none">None</option>
+        <option value="aube">Aube</option>
+        <option value="coteDesBlancs">Côte des Blancs</option>
+        <option value="coteDeSezanne">Côte de Sézanne</option>
+        <option value="montagneDeReims">Montagne de Reims</option>
+        <option value="valleeDeLaMarne">Vallée de la Marne</option>
+      </select>
+
+      <label for="whiskeyTasting">Whiskey Tasting:</label>
+      <select id="whiskeyTasting" name="whiskeyTasting">
+        <option value="none">None</option>
+        <option value="singleMalt">Single Malt</option>
+        <option value="blendedMalt">Blended Malt</option>
+        <option value="barrelProof">Barrel Proof</option>
+        <option value="singleCask">Single Cask</option>
+        <option value="highland">Highland</option>
+      </select>
+
+      <label for="degustation">Degustation:</label>
+      <select id="degustation" name="degustation">
+        <option value="none">None</option>
+        <option value="6Courses">6 Courses</option>
+        <option value="10Courses">10 Courses</option>
+        <option value="12Courses">12 Courses</option>
+      </select>
+
+      <label for="groupSize">Group Size:</label>
+      <div class="group-size">
+        <button type="button" class="group-size-btn" onclick="decreaseGroupSize()">-</button>
+        <input type="text" id="groupSize" name="groupSize" value="1" readonly>
+        <button type="button" class="group-size-btn" onclick="increaseGroupSize()">+</button>
+      </div>
+
+      <label for="creditCardNumber">Credit Card Number:</label>
+      <input type="text" id="creditCardNumber" name="creditCardNumber" required>
+
+      <label for="expirationDate">Expiration Date:</label>
+      <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required>
+
+      <label for="cvv">CVV:</label>
+      <input type="text" id="cvv" name="cvv" required>
+
+      <button type="submit" class="animated-button">Make Group Reservation</button>
+    </form>
+  </div>
+
+  <script>
+    function decreaseGroupSize() {
+      var groupSizeInput = document.getElementById("groupSize");
+      var currentGroupSize = parseInt(groupSizeInput.value, 10);
+      if (currentGroupSize > 1) {
+        groupSizeInput.value = currentGroupSize - 1;
+      }
+    }
+
+    function increaseGroupSize() {
+      var groupSizeInput = document.getElementById("groupSize");
+      var currentGroupSize = parseInt(groupSizeInput.value, 10);
+      groupSizeInput.value = currentGroupSize + 1;
+    }
+  </script>
+
+</body>
+</html>

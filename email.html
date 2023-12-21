@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Best Restaurant in the World, Zurich,">
+    <meta name="keywords" content="restaurant, dining, fine-dining, michelin-star, food, meals, private dining, menu, wine, wines, 
+    whiskey, vodka, ">
+    <link rel="stylesheet" href="email.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Balint's</title>
+</head>
+
+<header>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="6degu.html">6c.Degustation </a>
+    <a href="10degu.html">10c.Degustation </a>
+    <a href="12degu.html">12c. Degustation</a>
+    <a href="wines.html">Wine</a>
+    <a href="champagne.html">Champagne Tasting</a>
+    <a href="singlemalt.html">Whiskey tasting</a>
+    <a href="reservation.html">Reservation</a>
+    <a href="reservationgroups.html">Reservation for Groups</a>
+    <a href="aboutus.html">Beginnings</a>
+    <a href="hospitality.html">Hospitality</a>
+    <a href="profession.html">Profession</a>
+    
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <div style="padding-left:16px">
+
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  
+</header>
+
+<body>
+    <div class="container">
+        <form action="mailto:recipient@example.com" method="post" enctype="text/plain">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Email</button>
+        </form>
+    </div>
+
+</body>
+</html>
