@@ -2,12 +2,11 @@
 body, p, h1, h2, h3, h4, h5, h6, a, li {
   font-size: 14px;
   color: white;
-  font-weight: normal;
+  font-weight: thin;
 }
 
-
 body {
-  background-image: url('../images/inside3.webp');
+  background-image: url(../images/inside3.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -69,7 +68,7 @@ button:hover {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 14px;
-  font-weight: normal;
+  font-weight: thin;
 }
 
 .topnav a:hover {

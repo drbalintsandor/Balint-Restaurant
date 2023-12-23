@@ -5,8 +5,6 @@ body {
 
 }
 
-
-
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -129,11 +127,11 @@ p {
 
 
 .single-malt-whiskey {
-    background-image: url(../images/w1.jpg); 
+    background-image: url(../images/w1.jpg);
 }
 
 .barrel-proof-whiskey {
-    background-image: url(../images/w1.jpg); 
+    background-image: url(../images/w1.jpg);
 }
 
 
@@ -142,5 +140,5 @@ p {
 }
 
 .single-cask-whiskey {
-    background-image: url(../images/w1.jpg);  
+    background-image: url(../images/w1.jpg);
 }

@@ -263,7 +263,7 @@ The testing process has been comprehensive, covering various features, browsers,
 
 
 The live link can be found here - [https://drbalintsandor.github.io/Balint-Restaurant/](https://drbalintsandor.github.io/Balint-Restaurant/)
->>>>>>> 00ba06d2e0afd20ca2517a3d66fa683515838b80
+
 
 
 ## Credits 
@@ -285,7 +285,7 @@ I would like to acknowledge the following people:
 
 * Jubril Akolade - My Code Institute Mentor.
 =======
->>>>>>> 00ba06d2e0afd20ca2517a3d66fa683515838b80
+
 
 ### Media
 
@@ -295,4 +295,4 @@ I would like to acknowledge the following people:
 - The photos used on the hospoitality.html, profession.html, aboutus.html are from google.com
 =======
 - The photos used on the hospoitality.html, profession.html, aboutus.html are from google.com
->>>>>>> 00ba06d2e0afd20ca2517a3d66fa683515838b80
+

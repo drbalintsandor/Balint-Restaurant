@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
-  background-image: url('../images/inside3.webp'); 
+  background-image: url(../images/inside3.webp); 
   font-family: 'arial', 'MedievalSharp', Arial, Helvetica, sans-serif;
   color: #ddd;
 }
@@ -63,7 +63,6 @@ body {
     text-align: left;
   }
 }
-
 
 footer {
   color: #fff;
@@ -216,7 +215,6 @@ h2, p {
   border-radius: 8px
 }
 
-
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -236,23 +234,21 @@ section h2, section p, .photo-gallery .gallery-item, .photo-gallery .gallery-ite
   animation-delay: 2s;
 }
 
-
 .paragraph {
   font-weight: bold;
   font-size: 18px;
   color: white;
   padding: 15px;
-  text-shadow: 1px 1px 1px white; 
+  text-shadow: 1 1 1px white; 
   transform: scale(1) rotate(0deg); 
   transition: transform 0.5s ease, box-shadow 0.5s ease, border 0.5s ease, text-shadow 0.5s ease, font-size 0.5s ease; 
 }
 
 .paragraph:hover {
-  transform: scale(1.1) rotate(45deg); 
-  text-shadow: 10px 10px 10px white; 
+  transform: scale(1.1) rotate(1.5s); 
+  text-shadow: 10 10 10px white; 
   font-size: 16px; 
 }
-
 
 h2 {
   font-family: 'Georgia', serif; 
