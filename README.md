@@ -2,7 +2,7 @@
 HTML CSS Project
 
 
-![The Balint's Restaurant shown on a variety of screen sizes](../Balint-Restaurant/Testing/images/resposive.png)
+![The Balint's Restaurant shown on a variety of screen sizes](Testing/images/resposive.png)
 
 Visit the deployed site: [Balint's Restaurant](https://drbalintsandor.github.io/Balint-Restaurant/)
 # Balint's Restaurant
@@ -72,7 +72,7 @@ In my css file I have used variables to declare colours, and then used these thr
 * I have used `#101211` for the partial design.
 * I have used `#202226` for the partial design
 
-  ![The Balint's Restaurant Color Scheme](../Balint-Restaurant/Testing/images/colors.png)
+  ![The Balint's Restaurant Color Scheme](Testing/images/colors.png)
 
 ### Typography
 
@@ -117,41 +117,41 @@ Menu Pages
 1. - degu6.html & degu6.css 
 Explore our Degustation Menu with 6 courses, each page beautifully styled with degu6.css to present a visually appealing layout that enhances the user experience. The HTML file incorporates structured content to highlight each course, allowing users to immerse themselves in the culinary offerings.
 
-![6 Courses Degustation Menu](../Balint-Restaurant/Testing/images/6degu.png) 
+![6 Courses Degustation Menu](Testing/images/6degu.png) 
 
 2. - degu10.html & degu10.css
 Indulge in a more extensive Degustation Menu with 10 courses. The HTML file degu10.html is intricately designed to showcase a broader selection of dishes, complemented by the styling in degu10.css for a cohesive and engaging presentation.
 
 
-![10 Courses Degustation Menu](../Balint-Restaurant/Testing/images/10degu.png)
+![10 Courses Degustation Menu](Testing/images/10degu.png)
 
 
 3. - degu12.html & degu12.css
 For a truly extravagant dining experience, our Degustation Menu with 12 courses is elegantly presented through degu12.html. The corresponding degu12.css file ensures a harmonious visual experience, aligning with the sophistication of the dishes.
 
 
-![12 Courses Degustation Menu](../Balint-Restaurant/Testing/images/12degu.png)
+![12 Courses Degustation Menu](Testing/images/12degu.png)
 
 4. - wines.html & wines.css
 Discover the perfect wine pairing with our curated selection on the wines.html page. The accompanying wines.css file defines the layout, creating an immersive environment where users can explore and select the ideal wine to complement their meal.
 
 
 
-![Wine Menu](../Balint-Restaurant/Testing/images/wines.png)
+![Wine Menu](Testing/images/wines.png)
 
 5. - champagne.html & champagne.css
 Immerse yourself in luxury with our Champagne Menu. The champagne.html file is expertly styled using champagne.css, creating a refined and upscale atmosphere that mirrors the elegance of our champagne offerings.
 
 
 
-![Champagne Tasting](../Balint-Restaurant/Testing/images/champagne.png)
+![Champagne Tasting](Testing/images/champagne.png)
 
 
 6. - aboutus.html & aboutus.css
 Delve into the heart of Balint's Restaurant through aboutus.html. The content is thoughtfully arranged, highlighting our story, commitment to excellence, and the passion that fuels our culinary journey. The styling in aboutus.css ensures a visually captivating and cohesive narrative.
 
 
- ![About Us Site](../Balint-Restaurant/Testing/images/aboutus.png)
+ ![About Us Site](Testing/images/aboutus.png)
 
 
 7. - profession.html & profession.css
@@ -159,14 +159,14 @@ Explore our professional catering services through profession.html. The content 
 
 
 
-![Professional Services](../Balint-Restaurant/Testing/images/profession.png)
+![Professional Services](Testing/images/profession.png)
 
 
 8. - hospitality.html & hospitality.css
 Experience the warmth of our hospitality with hospitality.html. The HTML file is designed to convey the welcoming atmosphere of Balint's Restaurant, while hospitality.css adds styling touches to enhance the visual appeal and user-friendly interface.
 
 
-![Hospitality](../Balint-Restaurant/Testing/images/hospitality.png)
+![Hospitality](Testing/images/hospitality.png)
 
 
 9. - reservation.html & reservation.css
@@ -177,7 +177,7 @@ Plan group reservations effortlessly with reservationgroups.html. The correspond
 
 
 
-![Reservation Management](../Balint-Restaurant/Testing/images/reservation.png) (../Testing/images/reservationgroups.png)
+![Reservation Management](Testing/images/reservation.png) (../Testing/images/reservationgroups.png)
 
 
 11. - index.html & index.css
@@ -185,7 +185,7 @@ Discover surprises and new additions through untitled.html. The HTML file and un
 
 
 
-![Home Page](../Balint-Restaurant/Testing/images/index.png)
+![Home Page](Testing/images/index.png)
 
 
 
